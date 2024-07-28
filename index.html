@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miorim Finances</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <main>
+        <div id="menu">
+            <h2>Finances</h2>
+            <section>
+                <p id="balance"><b>Balance: R$0,00</b></p>
+            </section>
+        </div>
+        <div class="system-transfer">
+            <form action="" id="transfer-form">
+                <h2>New transfer</h2>
+                <label for="transfer">Transfer: </label>
+                <select name="tansfer" id="transfer">
+                    <option value="" selected hidden>- Select -</option>
+                    <option value="transferred">Transferred</option>
+                    <option value="received">Received</option>
+                </select>
+                <br>
+                <label for="price">Price: R$</label>
+                <input id="price" type="number">
+                <br>
+                <label for="by">By: </label>
+                <input type="text" id="by">
+                <br>
+                <button>Save transfer</button>
+            </form>
+            <form action="" id="remove-transfer-form">
+                <h2>Remove transfer</h2>
+                <label for="remove-transfer">Id transfer: </label>
+                <input type="text" id="remove-transfer">
+                <br>
+                <button id="remove-transfer-button">Remove transfer</button>
+            </form>
+        </div>
+        <div class="transfers-data">
+            <h2>Transfers</h2>
+            <section id="transfers"></section>
+        </div>
+    </main>
+</body>
+</html>

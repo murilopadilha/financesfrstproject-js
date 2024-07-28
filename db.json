@@ -1,0 +1,22 @@
+{
+  "finances": [
+    {
+      "id": "858a",
+      "transfer": "received",
+      "price": "100",
+      "by": "Fulano"
+    },
+    {
+      "id": "e76c",
+      "transfer": "transferred",
+      "price": "60",
+      "by": "Murilo"
+    },
+    {
+      "id": "3bbb",
+      "transfer": "received",
+      "price": "30",
+      "by": "João"
+    }
+  ]
+}
